@@ -1,0 +1,6 @@
+---
+- hosts: local	
+  become: yes
+  roles:
+    - s:
+    java_version: 8

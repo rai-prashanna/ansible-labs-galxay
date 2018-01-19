@@ -1,0 +1,8 @@
+---
+- hosts: local  
+  become: yes
+  roles:
+    - jdauphant.vagrant
+  vars:
+    vagrant_version: 2.0.1
+
