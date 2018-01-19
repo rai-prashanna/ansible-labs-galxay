@@ -1,0 +1,7 @@
+to run playbook
+-> ansible-playbook playbook.yml --ask-sudo-pass
+-> edit inventory file i.e /etc/ansible/hosts with content 
+[local]
+127.0.0.1 ansible_connection=local
+      
+ 
