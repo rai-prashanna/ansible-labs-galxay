@@ -5,6 +5,7 @@
     - jdauphant.vagrant
     - geerlingguy.git
     - tekniqueltd.oracle-java
+    - wtanaka.chrome
     - role: jdauphant.sublimetext
       sublimetext_build:  3083
   vars:
