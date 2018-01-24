@@ -1,5 +1,5 @@
 ---
-- hosts: local  
+- hosts: remote 
   become: yes
   roles:
     - jdauphant.vagrant
@@ -8,8 +8,10 @@
     - wtanaka.chrome
     - role: jdauphant.sublimetext
       sublimetext_build:  3083
-     - jackl0phty.nmap
-
+    - jackl0phty.nmap
+    - gantsign.maven
+    - shelleg.gradle
+    - daniel-rhoades.tomcat
      
   vars:
     vagrant_version: 2.0.1
